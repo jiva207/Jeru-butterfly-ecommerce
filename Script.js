@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
       offer: "Trade-in-Offer",
       image: "assets/Brad_pitt.png",
       buttonText: "Explore Now",
-      url: "Products.html"
+      url: "products.html"
     },
     {
       quote:
@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
       offer: "Exclusive Offer",
       image: "assets/CR7.png",
       buttonText: "Visit Sportswear",
-      url: "Products.html"
+      url: "products.html"
     },
     {
       quote: "Funky Graphic Tees, Neon Pants Limited Stock – Grab Yours!",
       offer: "One Time Offer",
       image: "assets/MNM.png",
       buttonText: "Shop Now",
-      url: "Products.html"
+      url: "products.html"
     },
   ];
 
@@ -161,7 +161,7 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("Logged out successfully!");
 
         // Redirect to home or refresh to update the navbar back to "Login"
-        window.location.href = "Index.html";
+        window.location.href = "index.html";
       }
     });
   }
